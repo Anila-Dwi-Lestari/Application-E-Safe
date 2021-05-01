@@ -1,0 +1,2 @@
+include ':app'
+rootProject.name = "laporan_e-Safe"

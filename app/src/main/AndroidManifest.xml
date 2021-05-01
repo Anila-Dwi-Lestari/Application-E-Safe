@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.anila.stematel.laporan_e_safe">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".akun"></activity>
+        <activity android:name=".berhasil" />
+        <activity android:name=".pemesanan4" />
+        <activity android:name=".pemesanan3" />
+        <activity android:name=".pemesanan2" />
+        <activity android:name=".pemesanan1" />
+        <activity android:name=".chat2" />
+        <activity android:name=".chat1" />
+        <activity android:name=".pilihkonsul" />
+        <activity android:name=".detailhandsanitizer" />
+        <activity android:name=".handsanitizer" />
+        <activity android:name=".detailmemakaimasker" />
+        <activity android:name=".memakaimasker" />
+        <activity android:name=".detailmencucitangan" />
+        <activity android:name=".mencucitangan" />
+        <activity android:name=".Kasusbaru" />
+        <activity android:name=".pasiensembuh" />
+        <activity android:name=".kasuskematian" />
+        <activity android:name=".kasusterkonfirmasi" />
+        <activity android:name=".beranda" />
+        <activity android:name=".daftar" />
+        <activity android:name=".masuk" />
+        <activity android:name=".masukataudaftar" />
+        <activity android:name=".onboarding4" />
+        <activity android:name=".onboarding3" />
+        <activity android:name=".onboarding2" />
+        <activity android:name=".onboarding1" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
